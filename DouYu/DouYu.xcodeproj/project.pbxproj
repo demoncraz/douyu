@@ -11,6 +11,11 @@
 		3D19C0E62136380500129C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E42136380500129C08 /* Main.storyboard */; };
 		3D19C0E82136380700129C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E72136380700129C08 /* Assets.xcassets */; };
 		3D19C0EB2136380700129C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E92136380700129C08 /* LaunchScreen.storyboard */; };
+		3D19C1032136453000129C08 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C1022136453000129C08 /* Home.storyboard */; };
+		3D19C1052136454000129C08 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C1042136454000129C08 /* Live.storyboard */; };
+		3D19C1072136455700129C08 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C1062136455700129C08 /* Follow.storyboard */; };
+		3D19C1092136456600129C08 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C1082136456600129C08 /* Profile.storyboard */; };
+		3D19C1132136468500129C08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19C1102136468400129C08 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		3D19C0E72136380700129C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D19C0EA2136380700129C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D19C0EC2136380700129C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D19C1022136453000129C08 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3D19C1042136454000129C08 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		3D19C1062136455700129C08 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		3D19C1082136456600129C08 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		3D19C1102136468400129C08 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,6 @@
 			children = (
 				3D19C0F221363E6800129C08 /* Classes */,
 				3D19C0E02136380500129C08 /* AppDelegate.swift */,
-				3D19C0E42136380500129C08 /* Main.storyboard */,
 				3D19C0E72136380700129C08 /* Assets.xcassets */,
 				3D19C0E92136380700129C08 /* LaunchScreen.storyboard */,
 				3D19C0EC2136380700129C08 /* Info.plist */,
@@ -78,6 +87,9 @@
 		3D19C0F321363E6800129C08 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C10C2136463100129C08 /* Controller */,
+				3D19C10D2136463100129C08 /* Model */,
+				3D19C10E2136463100129C08 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 		3D19C0F521363E6800129C08 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C1062136455700129C08 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 		3D19C0F621363E6800129C08 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C1082136456600129C08 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		3D19C0F721363E6800129C08 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C1042136454000129C08 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -113,8 +128,56 @@
 		3D19C0F821363E6800129C08 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C10F2136468400129C08 /* Controller */,
+				3D19C1112136468400129C08 /* Model */,
+				3D19C1122136468400129C08 /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3D19C10C2136463100129C08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D19C10D2136463100129C08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D19C10E2136463100129C08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D19C1022136453000129C08 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D19C10F2136468400129C08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D19C1102136468400129C08 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D19C1112136468400129C08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D19C1122136468400129C08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D19C0E42136380500129C08 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +241,10 @@
 				3D19C0EB2136380700129C08 /* LaunchScreen.storyboard in Resources */,
 				3D19C0E82136380700129C08 /* Assets.xcassets in Resources */,
 				3D19C0E62136380500129C08 /* Main.storyboard in Resources */,
+				3D19C1052136454000129C08 /* Live.storyboard in Resources */,
+				3D19C1032136453000129C08 /* Home.storyboard in Resources */,
+				3D19C1092136456600129C08 /* Profile.storyboard in Resources */,
+				3D19C1072136455700129C08 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D19C0E12136380500129C08 /* AppDelegate.swift in Sources */,
+				3D19C1132136468500129C08 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
