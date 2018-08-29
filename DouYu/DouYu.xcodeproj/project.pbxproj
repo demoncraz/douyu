@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D19C0E12136380500129C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19C0E02136380500129C08 /* AppDelegate.swift */; };
-		3D19C0E32136380500129C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19C0E22136380500129C08 /* ViewController.swift */; };
 		3D19C0E62136380500129C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E42136380500129C08 /* Main.storyboard */; };
 		3D19C0E82136380700129C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E72136380700129C08 /* Assets.xcassets */; };
 		3D19C0EB2136380700129C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19C0E92136380700129C08 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		3D19C0DD2136380500129C08 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D19C0E02136380500129C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D19C0E22136380500129C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D19C0E52136380500129C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D19C0E72136380700129C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D19C0EA2136380700129C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		3D19C0DF2136380500129C08 /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				3D19C0F221363E6800129C08 /* Classes */,
 				3D19C0E02136380500129C08 /* AppDelegate.swift */,
-				3D19C0E22136380500129C08 /* ViewController.swift */,
 				3D19C0E42136380500129C08 /* Main.storyboard */,
 				3D19C0E72136380700129C08 /* Assets.xcassets */,
 				3D19C0E92136380700129C08 /* LaunchScreen.storyboard */,
 				3D19C0EC2136380700129C08 /* Info.plist */,
 			);
 			path = DouYu;
+			sourceTree = "<group>";
+		};
+		3D19C0F221363E6800129C08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D19C0F821363E6800129C08 /* Main */,
+				3D19C0F321363E6800129C08 /* Home */,
+				3D19C0F721363E6800129C08 /* Live */,
+				3D19C0F521363E6800129C08 /* Follow */,
+				3D19C0F621363E6800129C08 /* Profile */,
+				3D19C0F421363E6800129C08 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D19C0F321363E6800129C08 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D19C0F421363E6800129C08 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3D19C0F521363E6800129C08 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3D19C0F621363E6800129C08 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3D19C0F721363E6800129C08 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3D19C0F821363E6800129C08 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D19C0E32136380500129C08 /* ViewController.swift in Sources */,
 				3D19C0E12136380500129C08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
